@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f6f2e8;
+    /* background-color: var(--tg-theme-bg-color); */
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  header {
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
+    color: #eea60a;
+    background-color: #f1f5f4;
+    /* padding: 20px; */
+    height: 210px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 32px;
+  }
+  
+  main {
+    display: flex;
+    margin: 20px;
+    width: 100%;
+    max-width: 1179px;
+  }
+  
+  /* .container {
+    max-width: 800px; 
+    margin: 0 auto; 
+    padding: 20px; 
+  } */
+
+  .menu {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* Два столбца */
+    gap: 20px; /* Промежуток между элементами */
+  }
+  .image {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    width: 150px;
+    height: 150px;
+    
+  }
+  
+  .item {
+    background-color: #fff; 
+    padding: 10px;
+    width: 216px;
+    text-align: center; 
+    border-radius: 25px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .price {
+    font-family: "Parkinsans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 24px;
+    color: #000000;
+    font-weight: bold;
+  }
+  
+  .title {
+    font-family: "Parkinsans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 18px;
+    margin: 4px 0;
+  }
+  
+  button {
+    width: 200px;
+    font-family: "Parkinsans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 18px;
+    background-color: #603632;
+    color: #fff;
+    border: none; 
+    margin-top: 10px;
+    padding: 15px;
+    border-radius: 20px;
+    transition: background .2s linear;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2c133b;
+  }
+  
